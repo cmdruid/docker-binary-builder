@@ -13,7 +13,7 @@ ENV CONF_ARGS="--disable-tests --disable-bench"
 ENV MAKE_ARGS=""
 
 ENV PATH="/root/.local/bin:$PATH"
-ENV TAR_NAME="$BIN_NAME-$BUILD_TARGET-$BUILD_BRANCH"
+ENV TAR_NAME="$BIN_NAME-$BUILD_BRANCH-$BUILD_TARGET"
 
 ## Prepare directories.
 RUN mkdir -p /root/bin /root/out

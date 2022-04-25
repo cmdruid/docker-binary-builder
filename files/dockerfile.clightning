@@ -9,7 +9,7 @@ ENV REPO_URL="https://github.com/ElementsProject/lightning.git"
 ENV REPO_DIR="lightning"
 
 ENV PATH="/root/.local/bin:$PATH"
-ENV TAR_NAME="$BIN_NAME-$BUILD_TARGET-$BUILD_BRANCH"
+ENV TAR_NAME="$BIN_NAME-$BUILD_BRANCH-$BUILD_TARGET"
 
 ## Prepare directories.
 RUN mkdir -p /root/bin && mkdir -p /root/out
